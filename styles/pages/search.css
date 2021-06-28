@@ -1,0 +1,21 @@
+@import "../Utils/index.css";
+@import "../components/status_bar.css";
+@import "../components/search-movie.css";
+@import "../components/bottom-navbar.css";
+
+body {
+    position: relative;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 27px;
+    margin: 21px auto;
+    width: 90%;
+}
+
+.bottom-navbar__background {
+    width: 100%;
+    position: fixed;
+    bottom: 0;     
+}
